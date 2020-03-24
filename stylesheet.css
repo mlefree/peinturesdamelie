@@ -1,0 +1,248 @@
+/*
+  $Id: stylesheet.css,thieum $
+
+  //MLE - V.3.0
+*/
+ 
+
+
+body, .bodyContent  
+{ 
+  
+    background-color:#FFFFFF; 
+    
+    background-position:Top Center; 
+    background-attachment:fixed; 
+    background-repeat:repeat-y; 
+    border-width:0px; 
+    border-spacing:0px; 
+    /*border-style:Solid;*/
+    
+    text-align:center; 
+    
+    margin: 0px;
+    width: 1000px;
+    margin-left:  auto;
+    margin-right: auto; 
+    padding:0px;
+
+} 
+
+ 
+#body
+{
+  margin: 0px;
+  width: 1000px;
+  margin-left:  auto;
+  margin-right: auto;  
+ 
+}
+
+img{
+    border:none ;
+}
+
+table, tr, td { 
+    background-color:transparent;
+    border:none; 
+    border-width:0px; 
+        
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 11px;
+ } 
+
+
+h1
+{
+font-size:large;
+}
+
+
+h2
+{
+font-size:larger;
+}
+
+.whitetext12, .orangetext15
+{ 
+font-size:large;
+} 
+ 
+TD.pageHeading
+{
+font-size:large;
+} 
+
+.lightbluetext8, .blacktext10, .redbtext,.btext  { 
+font-family: tahoma;
+color:000033; 
+ } 
+
+.nametext { 
+color:eeeeee; 
+} 
+
+/*
+TABLE.productListing {
+  border: 1px;
+  border-style: solid;
+  border-color: #b6b7cb;
+  border-spacing: 1px;
+}
+*/
+
+TR.accountHistory-odd, TR.addressBook-odd, TR.alsoPurchased-odd, TR.payment-odd, TR.productListing-odd, TR.productReviews-odd, TR.upcomingProducts-odd, TR.shippingOptions-odd {
+  background: #f8f8f9;
+}
+
+TR.accountHistory-even, TR.addressBook-even, TR.alsoPurchased-even, TR.payment-even, TR.productListing-even, TR.productReviews-even, TR.upcomingProducts-even, TR.shippingOptions-even {
+  background: white;
+}
+
+
+/* #################  //MLE ############### */
+        
+a:active, a:visited, a:link, a.searchlinksmall:active, a.searchlinksmall:visited, a.searchlinksmall:link, a.navbar:active, a.navbar:visited, a.navbar:link, a.redlink:active, a.redlink:visited, a.redlink:link   
+{ 
+    font-size:12px;
+    color:rgb(153,113,166);
+    text-decoration: none;
+}
+
+a:hover{ 
+    text-decoration: underline;
+} 
+
+.headerNavigation, .headerNavigation:active, .headerNavigation:visited, .headerNavigation:hover { 
+    
+    /*color: rgb(255,148,115);*/
+    color: rgb(153,113,166);
+    font-weight: bold;
+}
+
+
+TD.infoBoxHeading {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background:transparent ;
+  color: rgb(153,113,166);
+}
+
+
+.infoBox {
+  /*background:rgb(153,113,166); */
+  border-style:groove ;
+  border-color:rgb(153,113,166);
+  border-top-width: 1px; 
+}
+
+
+dl, dt, dd, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#menu_palette_div {
+    POSITION: absolute; 
+    MARGIN-LEFT: -60px; 
+    margin-top: 80px;
+    float:left;
+    height:70px;
+    width:40px;
+}
+
+#menu_palette_div dl {
+    float: left;
+    margin: 0 1px;
+    font-size:12px;
+}
+
+#menu {
+    POSITION: absolute; 
+    MARGIN-LEFT: 100px; 
+    float:left;
+    height:40px;
+    width:950px;
+}
+
+#menu dl {
+    float: left;
+    margin: 0 1px;
+    font-size:12px;
+}
+
+#menu dt {
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;   
+    color: white; 
+    width:160px;
+}
+#menu dd {
+    display: block;
+}
+
+#menu li {
+    text-align: center;
+    padding:4px;
+    color: white; 
+    /*background: rgb(129,128,124);*/
+    background: #726E6F;
+}
+
+#menu li a, #menu dt a {
+    color: white;
+}
+/*
+#menu li a:hover, #menu dt a:hover {
+    background: #eee;
+}
+*/
+
+table.menu_haut{ 
+     background:none ;
+} 
+
+
+td.menu_haut{
+    background: url("images/menu/menu_peinturedamelie_1000_144.jpg");
+    background-image: url("images/menu/menu_peinturedamelie_1000_144.jpg");
+    width:1000px;
+    height:144px;
+}
+
+td.menu_bas{
+    background: white;
+    /*background: url("images/menu/menu_bas.jpg");*/
+    width:1000px;
+    height:15px;
+    text-align:center;
+    vertical-align:bottom;
+}
+/*
+#artist_campaign_icon_panel
+{
+background:no-repeat left top;
+width:24px;
+height:24px;
+filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/menu/palette.gif',sizingMethod='scale');
+margin-top:-1px;
+vertical-align:-9px;
+display:inline-block
+}
+
+#artist_campaign_icon
+{
+display:none
+}
+*/
+
+.actus
+{
+font-style:italic; 
+}
